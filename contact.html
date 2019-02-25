@@ -22,12 +22,22 @@
             <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column bg-white">
 
                   
-                    <main role="main" class="inner cover">
+                    <main role="main" class="inner cover col-md-12">
                       <h1 class="cover-heading">Contact</h1><hr><br>
-                      <p class="lead">Cover is a one-page template for building simple and beautiful home pages. Download, edit the text, and add your own fullscreen background photo to make it your own.</p>
-                      <p class="lead">
-                        <a href="#" class="btn btn-lg btn-secondary">Learn more</a>
-                      </p>
+                      <div class="form-group">
+                          <div class="form-group">
+                              <label for="usr">Name:</label>
+                              <input type="text" class="form-control" id="usr">
+                            </div>
+                            <div class="form-group">
+                              <label for="email">Email:</label>
+                              <input type="email" class="form-control" id="email">
+                            </div>
+                        <label for="comment">Subject:</label>
+                        <textarea class="form-control" rows="5" id="comment"></textarea>
+                      </div>
+                      <button type="button" class="btn btn-primary">Submit</button>
+
                     </main>
                   
                     <footer class="mastfoot mt-auto">
