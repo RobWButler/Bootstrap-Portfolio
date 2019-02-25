@@ -1,0 +1,80 @@
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size:18pt;
+    padding-top:5px;
+    padding-bottom:5px;
+    font-weight:bold;
+    color:gray;
+}
+
+h3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    font-size:24pt;
+    font-weight: bold;
+}
+
+h3 span {
+    background-color: gray;
+    padding:15px;
+    position:absolute;
+    bottom:0;
+}
+
+a {
+    color: gray;
+}
+
+.nav-link {
+    color: gray;
+    font-size:14pt;
+    float:right;
+}
+
+body {
+    color:darkslategray;
+}
+
+.nav-masthead .active {
+    color:darkslategray;
+}
+
+.img {
+    float:left;
+    margin:5px;
+}
+
+
+.inner-cover {
+    background-color:lightgray;
+}
+
+.cover-container {
+    max-width:60rem;
+    margin-top:5rem;
+}
+
+hr {
+    border-top: 1pt solid rgba(0, 0, 0, 1);
+}
+
+p {
+    text-shadow: none; 
+    color:#233333;
+    text-align:justify;
+}
+
+body {
+    background-image: url(assets/images/cartographer_@2X.png)
+}
+
+.masthead {
+    width:100%;
+    position:fixed;
+    top:0;
+}
+
+.inner {
+    max-width:60rem;
+    margin: 0 auto 0 auto;
+}
