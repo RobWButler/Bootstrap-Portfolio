@@ -42,6 +42,7 @@ body {
 .img {
     float:left;
     margin:5px;
+    z-index:1;
 }
 
 
@@ -77,4 +78,17 @@ body {
 .inner {
     max-width:60rem;
     margin: 0 auto 0 auto;
+}
+
+.text-image {
+    z-index:2;
+    position: absolute;
+    margin-left:4.5rem;
+    margin-top:7rem;
+}
+
+.text-image span {
+    background-color:darkslategray;
+    width:200px;
+    padding:3px;
 }
