@@ -83,12 +83,14 @@ body {
 .text-image {
     z-index:2;
     position: absolute;
-    margin-left:4.5rem;
+    margin-left:0.33rem;
     margin-top:7rem;
+    color:white;
 }
 
 .text-image span {
     background-color:darkslategray;
-    width:200px;
-    padding:3px;
+    width:33%;
+    padding-left:4rem;
+    padding-right:4rem;
 }
